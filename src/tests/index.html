@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>jsTPS tests</title>
+
+</head>
+<body>
+        
+
+            <script type="module" src="Num.js"></script>
+            <script type="module" src="addNumberTransaction.js"></script>
+            <script type="module" src="jsTPS.js"></script>
+            <script type="module" src="mulNumberTransaction.js"></script>
+            <script type="module" src="subNumberTransaction.js"></script>
+
+            <script type="Application/Javascript" src="mainfile.js">
+                            </script>
+            
+            
+<h1>jsTPS tester</h1>
+<p>tests jsTPS with numbers</p>
+
+
+<br/><br/>
+
+<form>
+    input number here:
+    <input id="input" type="number"/>
+
+    <br/>
+    
+    <button id="add" onclick="add()">Add</button><button id="sub">Subtract</button><button id="mul">Multiply</button><button id="do">Do</button><button id="undo">Undo</button>
+    <br/>
+    <input type="number" id="number" value="0" readonly/>
+    <br/><br/><br/>
+    transaction list:
+    <input type="text" id="transactions" style="position:absolute;height:40%;"readonly/>
+</form>
+
+</body>
+</html> 
